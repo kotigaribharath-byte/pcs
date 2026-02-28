@@ -19,7 +19,13 @@
         flipkart: 14500,
         croma: 15500,
      category: "mobile"
-    }
+    },
+  {
+   name:"dell laptop",
+   amazon:60000,
+   flipkart:58000,
+   croma:61000,
+   category:"laptop"
 ];
  
 function searchProduct() {
@@ -49,6 +55,7 @@ function searchProduct() {
     }
 }
  
+
 
 
 
