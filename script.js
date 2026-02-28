@@ -3,19 +3,22 @@
         name: "iphone16promax",
         amazon: 150000,
         flipkart: 69500,
-        croma: 71000
+        croma: 71000,
+     category: "mobile"
     },
     {
         name: "samsung",
         amazon: 50000,
         flipkart: 48000,
-        croma: 51000
+        croma: 51000,
+     category: "mobile"
     },
     {
         name: "redmi",
         amazon: 15000,
         flipkart: 14500,
-        croma: 15500
+        croma: 15500,
+     category: "mobile"
     }
 ];
  
@@ -46,5 +49,6 @@ function searchProduct() {
     }
 }
  
+
 
 
