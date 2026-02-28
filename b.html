@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Price Comparison</title>
+<style>
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+div {
+    background: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+</style>
+<script>
+const products = [
+    {
+        name: "iphone16promax",
+        amazon: 150000,
+        flipkart: 69500,
+        croma: 71000
+    },
+    {
+        name: "samsung",
+        amazon: 50000,
+        flipkart: 48000,
+        croma: 51000
+    },
+    {
+        name: "redmi",
+        amazon: 15000,
+        flipkart: 14500,
+        croma: 15500
+    }
+];
+</script>
+
+<script src="script.js">
+ 
+</script>
+</head>
+<body>
+
+<h1>Price Comparison System</h1>
+
+<form>
+    < <input type="text" id="product" placeholder="Enter product name">
+<button type="button" onclick="searchProduct()">Search</button>
+</form>
+
+<div>
+    <h2>Results</h2>
+    <p id="result">No products yet</p>
+</div>
+
+ 
+</body>
+</html>
